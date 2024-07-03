@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <style>
+      label,
+      input,
+      select {
+        padding: 7px;
+      }
+    </style>
+  </head>
+  <body style="margin: 40px">
+    <form action="/" method="post" style="text-align: center">
+      <h1>회원가입</h1>
+      <label for="ID">사용자 ID</label>
+      <input
+        type="text"
+        name="ID"
+        id="ID"
+        required
+        placeholder="ID를 입력하세요."
+        size="28"
+      /><br /><br /><br />
+      <label for="password">패스워드</label>
+      <input
+        type="password"
+        name="pwd"
+        id="pwd"
+        required
+        placeholder="password를 입력하세요."
+        size="29"
+      /><br /><br />
+      <label for="password">패스워드 확인</label>
+      <input
+        type="password"
+        name="pwd"
+        id="pwd"
+        required
+        placeholder="password를 한번 더 입력하세요."
+        size="24"
+      />
+      <br /><br /><br />
+      <label for="name">사용자 이름</label>
+      <input
+        type="name"
+        name="name"
+        id="name"
+        required
+        placeholder="사용자 이름을 입력하세요."
+        size="26"
+      />
+      <br /><br />
+      <label for="email">사용자 e-mail</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        required
+        placeholder="e-mail 주소를 입력하세요."
+        size="24"
+      />
+      <br />
+      <br />
+      <label for="tel">사용자 전화번호</label>
+      <input
+        type="tel"
+        id="tel"
+        name="tel"
+        required
+        placeholder="전화번호를 입력하세요."
+        size="22"
+      />
+      <br /><br /><br />
+      <input type="radio" id="남자" name="gender" value="남자" />
+      <label for="radio">남자</label><br /><br />
+      <input type="radio" id="여자" name="gender" value="여자" />
+      <label for="radio">여자</label><br /><br />
+      <label for="intro">자기 소개</label><br />
+      <textarea name="intro" id="intro" rows="10" cols="60"></textarea
+      ><br /><br />
+      <input type="submit" value="제출" />
+      <input type="reset" value="취소" />
+    </form>
+  </body>
+</html>
