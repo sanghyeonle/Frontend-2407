@@ -11,7 +11,7 @@
         border: 1px solid;
       }
       table.collapse {
-        border-collapse: ;
+        border-collapse: collapse;
       }
       table.size {
         width: 300px;
@@ -31,35 +31,49 @@
     </style>
   </head>
   <body style="margin: 40px">
-    <h2>Table border</h2>
+    <h2>Table</h2>
     <table style="width: 20%">
       <tr>
         <th>Firstname</th>
         <th>Lastname</th>
       </tr>
       <tr>
-        <td class="center">Peter</td>
-        <td class="center">Griffin</td>
+        <td>Peter</td>
+        <td>Griffin</td>
       </tr>
       <tr>
-        <td class="center">Lois</td>
-        <td class="center">Griffin</td>
+        <td>Lois</td>
+        <td>Griffin</td>
       </tr>
     </table>
     <br />
-
     <table class="collapse">
       <tr>
-        <th class="center">Firstname</th>
-        <th class="center">Lastname</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
       </tr>
       <tr>
-        <td class="center">Peter</td>
-        <td class="center">Griffin</td>
+        <td>Peter</td>
+        <td>Griffin</td>
       </tr>
       <tr>
-        <td class="center">Lois</td>
-        <td class="center">Griffin</td>
+        <td>Lois</td>
+        <td>Griffin</td>
+      </tr>
+    </table>
+    <br />
+    <table class="size">
+      <tr>
+        <th class="size">Firstname</th>
+        <th class="size">Lastname</th>
+      </tr>
+      <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+      </tr>
+      <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
       </tr>
     </table>
     <br />
@@ -67,42 +81,27 @@
       <tr>
         <th>Firstname</th>
         <th>Lastname</th>
+        <th>Savings</th>
       </tr>
       <tr>
         <td class="center">Peter</td>
         <td class="center">Griffin</td>
+        <td class="right">$100</td>
       </tr>
       <tr>
         <td class="center">Lois</td>
         <td class="center">Griffin</td>
-      </tr>
-    </table>
-    <br />
-    <table>
-      <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Savings</th>
+        <td class="right">$150</td>
       </tr>
       <tr>
-        <td>Peter</td>
-        <td>Griffin</td>
-        <td right>$100</td>
+        <td class="center">Joe</td>
+        <td class="center">Swanson</td>
+        <td class="right">$300</td>
       </tr>
       <tr>
-        <td>Lois</td>
-        <td>Griffin</td>
-        <td right>$150</td>
-      </tr>
-      <tr>
-        <td>Joe</td>
-        <td>Swanson</td>
-        <td right>$300</td>
-      </tr>
-      <tr>
-        <td>Cleveland</td>
-        <td>Brown</td>
-        <td right>$1,250</td>
+        <td class="center">Cleveland</td>
+        <td class="center">Brown</td>
+        <td class="right">$1,250</td>
       </tr>
     </table>
   </body>
